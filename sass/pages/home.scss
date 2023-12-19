@@ -1,0 +1,38 @@
+.container00{
+    &.container01{
+        background-image: url(../../img/home/01.jpg);
+    }
+    &.container02{
+        height: 60vh;
+        background-image: url(../../img/home/03.jpg);
+
+    }
+    &.container03{
+        background-image: url(../../img/home/02.gif);
+
+    }
+    &.container04{
+        background-image: url(../../img/home/04.jpg);
+
+    }
+}
+.titlePadding{
+ padding-top: 200px;
+}
+.shortTitle{
+    width: 500px;
+    margin-bottom: -25px;
+}
+.mediumTitle{
+    width: 500px;
+    margin-bottom: -25px;
+}
+@media (max-widht:750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
+    .shortTitle,.mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
